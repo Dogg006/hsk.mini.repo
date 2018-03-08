@@ -193,18 +193,55 @@ xStream 3.4.6
 	</extension>
 </addon>
 
-<addon id="repository.hsk_notfall" name="[COLOR blue]HSK Notfall Repo[/COLOR]" version="1.0.0" provider-name="[COLOR skyblue]HSK-DE[/COLOR]">
-    <extension point="xbmc.addon.repository" name="HSK Notfall REPOSITORY">
+<addon id="repository.hsk_forever" name="[COLOR lime]HSK FOREVER[/COLOR]" version="1.0.4" provider-name="[COLOR lime]SH Germania | KODIMAN | HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK FOREVER REPOSITORY">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/SHGermania/repository.hsk_forever/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/SHGermania/repository.hsk_forever/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/SHGermania/repository.hsk_forever/master</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/kim/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/kim/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/kim/master/</datadir>
+	</dir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR lime]HSK FOREVER REPOSITORY[/COLOR]</summary>
+        <description>[COLOR lime]
+
+Ein besonderer Dank geht an Guido Sasse,
+Loki 1979 und an Kodiman die mir stehts zur Seite standen.
+
+In diesem Sinne  [COLOR lime]HSK-FOREVER[/COLOR].
+
+
+
+Kodimans Forum:
+https://www.kodiman.net/[/COLOR].
+</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.hsk_notfall" name="[COLOR blue]HSK NOTFALL REPOSITORY[/COLOR]" version="1.0.1" provider-name="[COLOR skyblue]HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK NOTFALL REPOSITORY">
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/hsk.mini.repo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/kaffepausse71/hsk.mini.repo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/hsk.mini.repo/master</datadir>
 	</dir>
+	<dir>
+		<info compressed="false">http://hsk.kodiman.net/hsk/repo/addons.xml</info>
+		<checksum>http://hsk.kodiman.net/hsk/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://hsk.kodiman.net/hsk/repo/</datadir>
+	</dir>
 	</extension>
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR lime]HSK NOTFALL REPOSITORY[/COLOR]</summary>
         <description>[COLOR skyblue]
-Hardware Software Kodi DE Notfall Repo
+Hardware Software Kodi DE:
+https://www.facebook.com/groups/hskde/
 
 Kodimans Forum:
 https://www.kodiman.net/[/COLOR].
@@ -232,6 +269,48 @@ https://www.kodiman.net/[/COLOR].
 		<platform>all</platform>
 		<forum>http://lastship.square7.ch/forum/</forum>
    	</extension>
+</addon>
+
+<addon id="repository.master.skinbase" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR]" version="3.1.6" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR aqua]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase17/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase17/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase17/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase17.1/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase17.1/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase17.1/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase17.2/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase17.2/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase17.2/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase18/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase18/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase18/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase18.1/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase18.1/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase18.1/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Guidos SKINBASE Repo</summary>
+		<description>
+In [COLOR aqua]G[/COLOR]uido[COLOR aqua]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] findet ihr Skins für die Kodi Versionen von 17 bis 18 aus aller Welt.
+Viele sind selber gestaltet und einige haben wir aus anderen Repos oder auch Wizards wie zu Fanrific Wizard,Classik Nancy Skins und Ares Wizard.
+Die Skins sind für die jeweiligen Kodi Versionen farblich und mit Nummern markiert.Des weiteren findet ihr auch weitere Repos für Skins sowie Bilder Addons für Hintergrundbilder und Addons die für die Skins benötigt werden.
+Die SkinBase wird ständig erweitert und verbessert.Viel Spass wünschen euch Guido und Waller.[/COLOR][aqua]KODI 17 Schrift Aqua,[COLOR orange]KODI 18 Schrift Orange[/COLOR]
+</description>
+		<platform>all</platform>
+        <forum>https://www.facebook.com/groups/716337198478240/</forum>
+        <website>https://www.facebook.com/groups/716337198478240/</website>
+	</extension>
 </addon>
 
 <addon id="repository.xstream" name="xStream Repository" version="1.1.2" provider-name="xStream-Team">

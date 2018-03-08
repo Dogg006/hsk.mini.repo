@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.hsk_notfall" name="[COLOR blue]HSK Notfall Repo[/COLOR]" version="1.0.0" provider-name="[COLOR skyblue]HSK-DE[/COLOR]">
-    <extension point="xbmc.addon.repository" name="HSK Notfall REPOSITORY">
+<addon id="repository.hsk_notfall" name="[COLOR blue]HSK NOTFALL REPOSITORY[/COLOR]" version="1.0.1" provider-name="[COLOR skyblue]HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK NOTFALL REPOSITORY">
 	<dir>
 		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/hsk.mini.repo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/kaffepausse71/hsk.mini.repo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/hsk.mini.repo/master</datadir>
 	</dir>
+	<dir>
+		<info compressed="false">http://hsk.kodiman.net/hsk/repo/addons.xml</info>
+		<checksum>http://hsk.kodiman.net/hsk/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://hsk.kodiman.net/hsk/repo/</datadir>
+	</dir>
 	</extension>
     <extension point="xbmc.addon.metadata">
         <summary>[COLOR lime]HSK NOTFALL REPOSITORY[/COLOR]</summary>
         <description>[COLOR skyblue]
-Hardware Software Kodi DE Notfall Repo
+Hardware Software Kodi DE:
+https://www.facebook.com/groups/hskde/
 
 Kodimans Forum:
 https://www.kodiman.net/[/COLOR].
